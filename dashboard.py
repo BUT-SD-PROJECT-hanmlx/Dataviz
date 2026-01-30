@@ -64,6 +64,9 @@ st.markdown("""
 
 st.markdown("""
     <style>
+    section[data-testid="stSidebar"] {
+        background: #1e3a8a !important;
+    }
     section[data-testid="stSidebar"] * {
         color: #fff !important;
     }
