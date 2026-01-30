@@ -61,6 +61,15 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+st.markdown("""
+    <style>
+    [data-testid="stSidebar"] * {
+        color:  #ffffff !important;
+        font-weight: 600;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
 # Chargement des données
 @st.cache_data
 def load_data():
