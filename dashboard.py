@@ -64,9 +64,8 @@ st.markdown("""
 
 st.markdown("""
     <style>
-    [data-testid="stSidebar"] * {
-        color:  #ffffff !important;
-        font-weight: 600;
+    section[data-testid="stSidebar"] * {
+        color: #fff !important;
     }
     </style>
 """, unsafe_allow_html=True)
